@@ -8,6 +8,11 @@ Visit http://127.0.0.1:8000/
 
 If there is an error that claims `polls` is missing, you'll need to install my `django-polls` app.
 
+```bash
+# I had to use pip3 instead of pip to get this to work
+pip3 install --user path/to/django-polls/dist/django-polls-0.1.tar.gz
+```
+
 
 # Migrations
 
